@@ -93,7 +93,7 @@ namespace Pinger2000
                 ListChoiceApp.Items.Add(name);
             }
             pinger.Clear();
-            
+            ChartPing.Series[0].Values.Clear();
         }
     }
 }
